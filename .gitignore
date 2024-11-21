@@ -1,0 +1,12 @@
+# Node.js
+node_modules/
+
+# React
+build/
+.cache/
+
+# Logs
+*.log
+
+# Environnement
+.env
