@@ -1,12 +1,26 @@
-# Node.js
-node_modules/
+# Voir https://help.github.com/articles/ignoring-files/ pour plus de détails.
 
-# React
+# Dépendances
+node_modules/
+.pnp
+.pnp.js
+
+# Test
+coverage/
+
+# Production
 build/
+
+# Divers
+.DS_Store
+.env
+.env.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React spécifique
 .cache/
 
 # Logs
 *.log
-
-# Environnement
-.env
